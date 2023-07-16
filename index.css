@@ -43,8 +43,8 @@ nav li a{
 .banner-title{
     font-size: 45px;
     padding-top: 80px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-weight: 700;
 }
 .banner-discription{
     font-size: 12px;
@@ -55,24 +55,87 @@ nav li a{
 .btn-primary{
     font-size: 15px;
     border-radius: 8px;
-    text-align: end;
     background: #FF900E;
     padding: 15px 18px;
     color: white;
     border: none;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .banner-img{
-    width: 950px;
-    height: 480px;
+    width: 100%;
 }
 
 
 /* main style */
 
-.team{
+
+.main-container{
+   display: flex;
+   align-items: center;
+   /* margin: 50px 90px; */
+}
+.main-text{
+    text-align: center;
+    padding-left: 40px;
+    margin-left: 30px;
+}
+.img-division{
+        display: flex;
+
+}
+.team-img1{
     width: 242px;
     height: 242px;
     border-radius: 8px;
-    
+}
+.team-img2{
+    width: 242px;
+    height: 242px;
+    border-radius: 8px;
+}
+.team-img3{
+    width: 242px;
+    height: 242px;
+    border-radius: 8px;
+   
+}
+.team-img4{
+    width: 242px;
+    height: 242px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive media queries */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    nav > ul{
+        /* flex-direction: column; */
+        margin: 20px;
+
+    }
+}
+
+/* tablet device */
+@media screen and (min-width:576px) and (max-width:962px) {
+    header{
+        padding: 10px;
+    }
+    .container{
+        flex-direction: column;
+    }
 }
