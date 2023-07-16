@@ -169,6 +169,54 @@ main{
     width: 165px;
 }
 
+/* Experience style */
+.feauter-Experience-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.Experience-title{
+    font-size: 35px;
+    
+    margin-left: 55px;
+    border-left: 4px solid #FF900E;
+    padding-left: 20px;
+}
+.Experience-text{
+    margin-left: 55px;
+    font-size: 14px;
+    color: #727272;
+}
+.batch{
+    border-radius: 8px;
+    background: #FF900E;
+    color: white;
+    width: 145px;
+    padding: 30px;
+}
+.batch h2{
+    font-size: 2rem;
+}
+.batch p{
+    text-align: center;
+    margin-top: 10px;
+}
+.feauter-content .Experience-card{
+    color: #000000;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    background: #FFF;
+    box-shadow: 5px 4px 5px rgb(207, 202, 202);
+    
+}
+.ex-img{
+    width: 508px;
+    height: 712px;
+
+}
 
 
 
