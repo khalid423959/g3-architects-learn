@@ -1,10 +1,78 @@
-
+/* work sans google font */
   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;1,600;1,700;1,800&display=swap');
 
 *{
     font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }  
 
-.container{
+/* hrader style */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
 
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.nav-title{
+    font-size: 2.3rem;
+    color: #131313;
+    font-weight: bolder;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+.banner {
+    text-align: center;
+}
+.banner-title{
+    font-size: 45px;
+    padding-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.banner-discription{
+    font-size: 12px;
+    text-align: center;
+    margin: 20px 0px;
+    color: #727272;
+}
+.btn-primary{
+    font-size: 15px;
+    border-radius: 8px;
+    text-align: end;
+    background: #FF900E;
+    padding: 15px 18px;
+    color: white;
+    border: none;
+    margin-bottom: 30px;
+}
+.banner-img{
+    width: 950px;
+    height: 480px;
+}
+
+
+/* main style */
+
+.team{
+    width: 242px;
+    height: 242px;
+    border-radius: 8px;
+    
 }
